@@ -19,7 +19,7 @@ class CustomException(Exception):
         return self.error_message 
     
 
-
+'''
 if __name__=="__main__":
     logging.info("Logging has started")
 
@@ -28,3 +28,5 @@ if __name__=="__main__":
     except Exception as e:
         logging.info('Division by zero') 
         raise CustomException(e,sys)
+'''
+
